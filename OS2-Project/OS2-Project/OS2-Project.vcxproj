@@ -146,6 +146,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="File.h" />
+    <ClInclude Include="FS.h" />
+    <ClInclude Include="part.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\resursi\particija-VS2015\part.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
